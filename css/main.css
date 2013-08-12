@@ -8,13 +8,22 @@ body {
 	background: url(../img/background-face.png) #c9a68f;
 	background-size: cover;  /* 2561px 2049px */
 	background-repeat: no-repeat;
-	background-position: left center;
+	background-position: right center;
 	background-attachment: fixed;
 	padding-top: 60px;
 	padding-bottom: 70px;
 	font-family: "Palatino", "Times New Roman", "Times";
 	color: #3B1B00;
-	text-shadow: 0px 0px 3px rgba(255,255,255,0.6);
+	text-shadow:
+		0px 1px 0px  rgba(201,166,143,0.35),
+		1px 0px 0px  rgba(201,166,143,0.35),
+		0px -1px 0px rgba(201,166,143,0.35),
+		-1px 0px 0px rgba(201,166,143,0.35),
+		0px 2px 0px  rgba(201,166,143,0.35),
+		2px 0px 0px  rgba(201,166,143,0.35),
+		0px -2px 0px rgba(201,166,143,0.35),
+		-2px 0px 0px rgba(201,166,143,0.35)
+		;
 	/* #1D150F; */
 }
 
